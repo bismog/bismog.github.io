@@ -1,0 +1,7 @@
+// confMap.yaml:
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-test
+data:
+  msg: "Hello World"
