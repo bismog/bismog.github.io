@@ -3,7 +3,7 @@ entries:
   confMap:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-09-05T07:46:12.879901+08:00"
+    created: "2024-09-05T07:58:40.457211+08:00"
     description: A Helm chart for Kubernetes
     digest: 1bd7f5eb2e1d9bac23551ce6a6c4bf446c00db03f8116c5d732eacfb54893b2c
     name: confMap
@@ -14,7 +14,7 @@ entries:
   harbor:
   - apiVersion: v1
     appVersion: 2.11.1
-    created: "2024-09-05T07:46:12.882638+08:00"
+    created: "2024-09-05T07:58:40.462419+08:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: 5a41a2d30237de89eea60652b03bfde9a86ba9caded71a4590678ab8bade8777
@@ -40,4 +40,30 @@ entries:
     urls:
     - harbor-1.15.1.tgz
     version: 1.15.1
-generated: "2024-09-05T07:46:12.879094+08:00"
+  - apiVersion: v1
+    appVersion: 2.9.0
+    created: "2024-09-05T07:58:40.460003+08:00"
+    description: An open source trusted cloud native registry that stores, signs,
+      and scans content
+    digest: 7d1b56230d70fb7db0d1c8fc553269a6363fa08bc17df95739a5c73cb400e1e7
+    home: https://goharbor.io
+    icon: https://raw.githubusercontent.com/goharbor/website/main/static/img/logos/harbor-icon-color.png
+    keywords:
+    - docker
+    - registry
+    - harbor
+    maintainers:
+    - email: yinw@vmware.com
+      name: Wenkai Yin
+    - email: hweiwei@vmware.com
+      name: Weiwei He
+    - email: yshengwen@vmware.com
+      name: Shengwen Yu
+    name: harbor
+    sources:
+    - https://github.com/goharbor/harbor
+    - https://github.com/goharbor/harbor-helm
+    urls:
+    - harbor-1.13.0.tgz
+    version: 1.13.0
+generated: "2024-09-05T07:58:40.456586+08:00"
